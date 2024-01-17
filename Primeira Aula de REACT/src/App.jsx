@@ -7,15 +7,16 @@ function App() {
       <h1>Olá Mundo, React!</h1>
       <MeuComponente/>
       <MeuComponente/>
-      <MeuBotao/>
-      <MeuBotao/>
+      <MeuBotao conteudo="Clique Aqui!"/>
+      <MeuBotao conteudo="Agora Neste!"/>
+      <MeuBotao conteudo="Terceiro Botão ->" numero={3}/>
     </div>
   )
 }
 
-function MeuBotao() {
+function MeuBotao(props) {
   return (
-    <button> <a target="blank" href="youtube.com/@toddycommococa">CLIQUE AQUI</a></button>
+    <button>{props.conteudo} {props.numero}</button>
   )
 }
 
