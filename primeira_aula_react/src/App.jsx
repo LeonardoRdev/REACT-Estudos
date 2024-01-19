@@ -6,15 +6,15 @@ import MeuContador from "./components/MeuContador"
 function App() {
 
   return (
-    // <div>
-    //   <h1>Olá Mundo, React!</h1>
+    <div>
+    {/* //   <h1>Olá Mundo, React!</h1>
     //   <MeuComponente/>
     //   <MeuComponente/>
     //   <MeuBotao conteudo="Clique Aqui!"/>
     //   <MeuBotao conteudo="Agora Neste!"/>
-    //   <MeuBotao conteudo="Terceiro Botão ->" numero={3}/>
-    // </div>
+    //   <MeuBotao conteudo="Terceiro Botão ->" numero={3}/> */}
     <MeuContador />
+    </div>
   )
 }
 
