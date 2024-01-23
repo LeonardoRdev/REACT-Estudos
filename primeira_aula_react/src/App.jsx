@@ -18,7 +18,6 @@ function App() {
 
     /* <MeuContador /> */}
 
-    <h1>Listas no REACT</h1>
     <MinhaLista />
     </div>
   )
