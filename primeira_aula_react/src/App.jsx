@@ -3,7 +3,9 @@
 
 // import MeuContador from "./components/MeuContador"
 
-import MinhaLista from "./components/MinhaLista"
+// import MinhaLista from "./components/MinhaLista"
+
+import BuscandoDados from "./components/BuscandoDados"
 
 function App() {
 
@@ -18,7 +20,9 @@ function App() {
 
     /* <MeuContador /> */}
 
-    <MinhaLista />
+    {/* <MinhaLista /> */}
+
+    <BuscandoDados />
     </div>
   )
 }
