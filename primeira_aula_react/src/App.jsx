@@ -1,7 +1,9 @@
 // import MeuComponente from "./components/MeuComponente"
 // import MeuBotao from "./components/MeuBotao"
 
-import MeuContador from "./components/MeuContador"
+// import MeuContador from "./components/MeuContador"
+
+import MinhaLista from "./components/MinhaLista"
 
 function App() {
 
@@ -12,8 +14,12 @@ function App() {
     //   <MeuComponente/>
     //   <MeuBotao conteudo="Clique Aqui!"/>
     //   <MeuBotao conteudo="Agora Neste!"/>
-    //   <MeuBotao conteudo="Terceiro Botão ->" numero={3}/> */}
-    <MeuContador />
+    //   <MeuBotao conteudo="Terceiro Botão ->" numero={3}/> */
+
+    /* <MeuContador /> */}
+
+    <h1>Listas no REACT</h1>
+    <MinhaLista />
     </div>
   )
 }
