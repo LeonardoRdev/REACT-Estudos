@@ -1,4 +1,5 @@
 import { useState } from "react"
+import styles from "./botao.module.css"
 
 export default function MeuContador() {
 
@@ -22,11 +23,11 @@ export default function MeuContador() {
     if (contador > 5 && contador < 109) {
         { passo = 3 }
         return (
-            <div>
+            <div className="main">
                 <h1>Tá funcionando!</h1>
                 <h3>{contador}</h3>
-                <button onClick={incrementar}>Continuar subindo! +3</button>
-                <button onClick={diminuir}>Voltar -1</button>
+                <button className={styles.meuBotao} onClick={incrementar}>Continuar subindo! +3</button>
+                <button className={styles.meuBotao} onClick={diminuir}>Voltar -1</button>
             </div>
         )
     }
@@ -34,22 +35,22 @@ export default function MeuContador() {
     else if (contador >= 110) {
         { passo = contador }
         return (
-            <div>
+            <div className="main">
                 <h1>CONTINUA SUBINDO!!!</h1>
                 <h3>{contador}</h3>
-                <button onClick={incrementar}>SUBIR MUITO! X2</button>
-                <button onClick={reiniciar}>VOLTAR TUDO</button>
+                <button className={styles.meuBotao} onClick={incrementar}>SUBIR MUITO! X2</button>
+                <button className={styles.meuBotao} onClick={reiniciar}>VOLTAR TUDO</button>
             </div>
         )
     }
 
     { passo = 1 }
     return (
-        <div>
+        <div className="main">
             <h1>Meu Contador</h1>
             <h3>{contador}</h3>
-            <button onClick={incrementar}>Incrementar +1</button>
-            <button onClick={diminuir}>Voltar -1</button>
+            <button className={styles.meuBotao} onClick={incrementar}>Incrementar +1</button>
+            <button className={styles.meuBotao} onClick={diminuir}>Voltar -1</button>
         </div>
     )
 }

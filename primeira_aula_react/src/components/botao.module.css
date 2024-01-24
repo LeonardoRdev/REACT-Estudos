@@ -1,0 +1,18 @@
+.meuBotao {
+    padding: 10px 25px;
+    background-color: #9f5;
+    color: #113;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 6px 0;
+    box-shadow: 3px 3px 6px 2px;
+    border: solid #000;
+    transition: box-shadow 0.1s, transform 0.1s;
+    font-size: 1.2em;
+}
+
+.meuBotao:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 4px 1px;
+    transform: scale(0.95);
+}

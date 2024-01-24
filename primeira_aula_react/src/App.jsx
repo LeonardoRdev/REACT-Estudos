@@ -1,11 +1,13 @@
+import "./styles.css"
+
 // import MeuComponente from "./components/MeuComponente"
 // import MeuBotao from "./components/MeuBotao"
 
-// import MeuContador from "./components/MeuContador"
+import MeuContador from "./components/MeuContador"
 
 // import MinhaLista from "./components/MinhaLista"
 
-import BuscandoDados from "./components/BuscandoDados"
+// import BuscandoDados from "./components/BuscandoDados"
 
 function App() {
 
@@ -22,7 +24,9 @@ function App() {
 
     {/* <MinhaLista /> */}
 
-    <BuscandoDados />
+    {/* <BuscandoDados /> */}
+
+    <MeuContador />
     </div>
   )
 }
